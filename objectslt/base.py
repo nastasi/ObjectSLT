@@ -20,8 +20,7 @@ def walk(node, objpath):
             if isinstance(v, str):
                 if v.startswith('OBJECTSLT:'):
                     _, ty, query = v.split(':', 2)
-                    print(ty)
-                    import pdb ; pdb.set_trace()
+                    # print(ty)
                     ty_class = __builtins__[ty]
                     newval = objpath.execute(query)
                     if isinstance(newval, ty_class):
