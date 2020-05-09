@@ -1,0 +1,72 @@
+[
+{
+    "model": "mapserver.projectmetadata",
+    "fields": {
+        "metadata_ptr": [
+            "fec0d88a-875b-4d47-9cd4-0c0300dad86e"
+        ],
+        "project": [
+            "nepal_exposure"
+        ],
+        "categories": [],
+        "contributors": []
+    }
+},
+{
+    "model": "portal.metadata",
+    "fields": {
+        "uuid": "fec0d88a-875b-4d47-9cd4-0c0300dad86e",
+        "abstract": "",
+        "citation": "",
+        "edition": "",
+        "purpose": "",
+        "restrictions": "",
+        "legal": "",
+        "temporal_extent_from": null,
+        "temporal_extent_to": null,
+        "coverage": "",
+        "license": null,
+        "publication_date": null,
+        "contact": null,
+        "doi": "",
+        "xml": "",
+        "categories": [],
+        "contributors": []
+    }
+},
+{
+    "model": "portal.metadata",
+    "fields": {
+        "uuid": "da0d5728-4ae5-41fe-b4d6-ab9ef7a2c112",
+        "abstract": "",
+        "citation": "",
+        "edition": "",
+        "purpose": "",
+        "restrictions": "",
+        "legal": "",
+        "temporal_extent_from": null,
+        "temporal_extent_to": null,
+        "coverage": "",
+        "license": null,
+        "publication_date": null,
+        "contact": null,
+        "doi": "",
+        "xml": "",
+        "categories": [],
+        "contributors": []
+    }
+},
+{
+    "model": "webmap.layermetadata",
+    "fields": {
+        "metadata_ptr": [
+            "da0d5728-4ae5-41fe-b4d6-ab9ef7a2c112"
+        ],
+        "layer": [
+            "nepal_exposure - Nepal exposure (GEM taxonomy)"
+        ],
+        "categories": [],
+        "contributors": []
+    }
+}
+]

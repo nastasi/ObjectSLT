@@ -1,0 +1,182 @@
+[
+{
+    "model": "webmap.map",
+    "fields": {
+        "created_by": [
+            "admin"
+        ],
+        "created_date": "2018-09-19T16:00:55.458Z",
+        "changed_by": [
+            "admin"
+        ],
+        "changed_date": "2020-05-08T15:26:07.188Z",
+        "name": "Nepal Exposure data",
+        "slug": "nepal-exposure-data",
+        "order": 2,
+        "project": [
+            "nepal_exposure"
+        ],
+        "bounds": "",
+        "limit_to_extent": false,
+        "center": "28.39523,84.13204",
+        "zoom_default": 8,
+        "zoom_min": 2,
+        "zoom_max": 15,
+        "zoom_control": true,
+        "scale": true,
+        "geolocator": true,
+        "measures": true,
+        "legend_font_size": 10,
+        "snipping_tool": false,
+        "printable": false,
+        "sidebar": "show",
+        "published": true,
+        "auto_thumbnail": true,
+        "custom_legend": "",
+        "description": "",
+        "notes": "",
+        "custom_html": "",
+        "thumbnail": "thumbs/nepal-exposure-data.png",
+        "logo": [
+            "openquake"
+        ],
+        "watermark": [
+            "gem-white"
+        ],
+        "tags": []
+    }
+},
+{
+    "model": "portal.metadata",
+    "fields": {
+        "uuid": "07c8d247-c0cd-47a8-bc99-87f305f8970b",
+        "abstract": "",
+        "citation": "",
+        "edition": "",
+        "purpose": "",
+        "restrictions": "",
+        "legal": "",
+        "temporal_extent_from": null,
+        "temporal_extent_to": null,
+        "coverage": "",
+        "license": null,
+        "publication_date": null,
+        "contact": null,
+        "doi": "",
+        "xml": "",
+        "categories": [],
+        "contributors": []
+    }
+},
+{
+    "model": "portal.metadata",
+    "fields": {
+        "uuid": "OBJECTSLT:str:questoqui",
+        "abstract": "<p><a href=\"https://github.com/gem/oq-engine\">OpenQuake Engine</a> demo for Nepal.</p>\r\n\r\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer massa dolor, laoreet id lectus a, ullamcorper ultrices sem. Cras id porttitor purus. Fusce mattis tempor mauris non sodales. Pellentesque a dapibus sem, quis dictum arcu. Nunc vestibulum libero id erat vestibulum aliquet. Integer nec elit at enim dapibus molestie. Nam ornare urna at ornare scelerisque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas ac dolor vitae enim molestie pretium. Maecenas sed urna ultricies, cursus nunc id, lacinia lorem. Nunc non sodales nulla. Donec ornare, dolor eget efficitur aliquam, turpis quam sollicitudin mauris, quis suscipit mi tellus sed enim. Sed porttitor condimentum lacus, in faucibus ipsum hendrerit vestibulum. Ut fringilla orci at sem dapibus, ut interdum tellus malesuada.</p>",
+        "citation": "",
+        "edition": "",
+        "purpose": "",
+        "restrictions": "",
+        "legal": "",
+        "temporal_extent_from": null,
+        "temporal_extent_to": null,
+        "coverage": "NP",
+        "license": [
+            "CC BY-SA 4.0"
+        ],
+        "publication_date": null,
+        "contact": [
+            "GEM Foundation"
+        ],
+        "doi": "",
+        "xml": "",
+        "categories": [
+            [
+                "risk"
+            ],
+            [
+                "exposure"
+            ]
+        ],
+        "contributors": []
+    }
+},
+{
+    "model": "mapserver.projectmetadata",
+    "fields": {
+        "metadata_ptr": [
+            "OBJECTSLT:str:questoqui[2]"
+        ],
+        "project": [
+            "nepal_exposure"
+        ],
+        "categories": [
+            [
+                "risk"
+            ],
+            [
+                "exposure"
+            ]
+        ],
+        "contributors": []
+    }
+},
+{
+    "model": "webmap.layermetadata",
+    "fields": {
+        "metadata_ptr": [
+            "07c8d247-c0cd-47a8-bc99-87f305f8970b"
+        ],
+        "layer": [
+            "nepal_exposure - Nepal exposure (GEM taxonomy)"
+        ],
+        "categories": [],
+        "contributors": []
+    }
+},
+{
+    "model": "webmap.maplayer",
+    "fields": {
+        "map": [
+            "nepal-exposure-data"
+        ],
+        "layer": [
+            "nepal_exposure - Nepal exposure (GEM taxonomy)"
+        ],
+        "order": 7,
+        "enabled": true,
+        "in_selector": false,
+        "in_legend": true,
+        "in_thumbnail": true,
+        "interactivity_type": [
+            "OpenQuake Exposure GEM Taxonomy Multidataset"
+        ],
+        "group": "",
+        "excl_group": null
+    }
+},
+{
+    "model": "webmap.mapbaselayer",
+    "fields": {
+        "map": [
+            "nepal-exposure-data"
+        ],
+        "layer": [
+            "Stamen Terrain"
+        ],
+        "order": 1
+    }
+},
+{
+    "model": "webmap.mapbaselayer",
+    "fields": {
+        "map": [
+            "nepal-exposure-data"
+        ],
+        "layer": [
+            "OpenStreetMap"
+        ],
+        "order": 2
+    }
+}
+]
