@@ -1,0 +1,14 @@
+[
+    {
+        "name": "simple name",
+        "value": "the simple value"
+    },
+    {
+        "name": "name with double \" quote",
+        "value": "the double quote value"
+    },
+    {
+        "name": "name with single ' quote",
+        "value": "the single quote value"
+    }
+]

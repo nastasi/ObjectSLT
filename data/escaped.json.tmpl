@@ -1,0 +1,18 @@
+[
+    {
+         "name": "the simple name",
+         "value": "OBJECTSLT:str:$.*[@.name is 'simple name'][0].value"
+    },
+    {
+         "name": "the double quote name",
+         "value": "OBJECTSLT:str:$.*[@.name is 'name with double \" quote'][0].value"
+    },
+    {
+         "name": "the single quote name",
+         "value": "OBJECTSLT:str:$.*[@.name is 'name with single ' + \"'\" + ' quote'][0].value"
+    },
+    {
+         "name": "the single quote name [2]",
+         "value": "OBJECTSLT:str:$.*[@.name is 'name with single ' + unescape('&apos;') + ' quote'][0].value"
+    }
+]
